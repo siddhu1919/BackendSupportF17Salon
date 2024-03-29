@@ -1,0 +1,26 @@
+{
+  "name": "F17SalonBackendSupport",
+  "version": "1.0.0",
+  "description": "Backend Support for F17Salon",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Node.js",
+    "Javascript",
+    "Mongoose",
+    "React"
+  ],
+  "author": "SiddhantSingh",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.4"
+  }
+}
