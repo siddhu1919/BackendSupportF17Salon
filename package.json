@@ -14,6 +14,9 @@
     "Mongoose",
     "React"
   ],
+  "engines" : {
+    "node":"18.x",
+  },
   "author": "SiddhantSingh",
   "license": "ISC",
   "dependencies": {
