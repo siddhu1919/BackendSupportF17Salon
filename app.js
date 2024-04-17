@@ -3,6 +3,7 @@ import { configDotenv } from "dotenv";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 import usersRouter from "./routes/Users.js";
+import eventsRouter from "./routes/Events.js";
 
 // Importing all Routes
 
@@ -30,6 +31,7 @@ app.use(
 
 // Routes // v1 designation for v1 api
 app.use("/v1/user", usersRouter);
+app.use("/v1/event", eventsRouter);
 
 //Default route
 app.get("/", (req, res) => {
