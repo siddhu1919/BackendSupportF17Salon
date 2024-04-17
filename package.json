@@ -15,7 +15,7 @@
     "React"
   ],
   "engines" : {
-    "node":"18.x",
+    "node":"18.x"
   },
   "author": "SiddhantSingh",
   "license": "ISC",
