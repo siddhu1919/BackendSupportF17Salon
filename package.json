@@ -8,15 +8,15 @@
     "dev": "nodemon ./index.js",
     "start": "node ./index.js"
   },
+  "engines" : {
+    "node":"18.x"
+  },
   "keywords": [
     "Node.js",
     "Javascript",
     "Mongoose",
     "React"
   ],
-  "engines" : {
-    "node":"18.x"
-  },
   "author": "SiddhantSingh",
   "license": "ISC",
   "dependencies": {
